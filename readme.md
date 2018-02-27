@@ -504,7 +504,7 @@ button:-moz-focusring,
 ```
 <button name="button">Click me</button>
 ```
-<button name="button">Click me</button> 
+[jsbin-demo](http://jsbin.com/tujazop/3/edit?html,css,output)
 
 ---
 
@@ -516,7 +516,7 @@ button:-moz-focusring,
 <input id="input1" type="text">
 ```
 
-<input id="input1" type="text">
+[jsbin-demo](http://jsbin.com/tujazop/3/edit?html,css,output)
 
 ---
 
@@ -541,20 +541,8 @@ button:-moz-focusring,
 </select>
 ```
 
-<select>
-  <optgroup label="Group 1">
-    <option>Option 1.1</option>
-  </optgroup> 
-  <optgroup label="Group 2">
-    <option>Option 2.1</option>
-    <option>Option 2.2</option>
-  </optgroup>
-  <optgroup label="Group 3" disabled>
-    <option>Option 3.1</option>
-    <option>Option 3.2</option>
-    <option>Option 3.3</option>
-  </optgroup>
-</select>
+
+[jsbin-demo](http://jsbin.com/tujazop/3/edit?html,css,output)
 
 ---
 
@@ -570,11 +558,7 @@ button:-moz-focusring,
 </select>
 ```
 
-<select name="text"> <!--Supplement an id here instead of using 'text'-->
-  <option value="value1">Value 1</option> 
-  <option value="value2" selected>Value 2</option>
-  <option value="value3">Value 3</option>
-</select>
+[jsbin-demo](http://jsbin.com/tujazop/3/edit?html,css,output)
 
 ---
 
@@ -587,8 +571,7 @@ button:-moz-focusring,
    rows="10" cols="50">Write something here</textarea>
 ```
 
-<textarea name="textarea"
-   rows="10" cols="50">Write something here</textarea>
+[jsbin-demo](http://jsbin.com/tujazop/3/edit?html,css,output)
 
 ---
 
