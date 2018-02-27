@@ -79,7 +79,7 @@ Explanation
 }
 ```
 
-- [`::before`](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) 
+#### 1.1 [`::before`](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) 
 
 > [codepen例子](https://developer.mozilla.org/en-US/docs/Web/CSS/::before#Examples)
 
@@ -117,13 +117,13 @@ html {
 
 ```
 
-- [box-sizing](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing)
+#### 2.1 [box-sizing](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing)
 
 > 属性用于更改用于计算元素宽度和高度的默认的 CSS 盒子模型
 
 > 为什么应该 [将所有的元素的box-sizing都设为border-box。](https://css-tricks.com/international-box-sizing-awareness-day/)
 
-- line-height
+#### 2.2 `line-height`
 
 > [它指定元素内行的最小高度-例子>>](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
 
@@ -147,11 +147,11 @@ html {
 
 ```
 
-- :root
+#### 3.1 :root
 
 > :root 这个 CSS 伪类 匹配文档树的根元素。对于 HTML 来说， :root 表示 html 元素，除了 优先级 更高之外，与 html 选择器相同。
 
-- tab-size
+#### 3.2 tab-size
 
 > [CSS 属性 tab-size 用于自定义制表符 (U+0009) 的宽度。](https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size)
 
@@ -212,11 +212,11 @@ h1 {
 
 ``` 
 
-- `-apple-system`
+#### 4.1 `-apple-system`
 
 > ios 字体 ？？？
 
-- [`em` 动态计量单位 更多>>](#em)
+#### 4.2 [`em` 动态计量单位 更多>>](#em)
 
 > 默认 1em = 16px，2em = 32px
 
@@ -242,6 +242,8 @@ hr {
 }
 
 ```
+
+#### 5.1 `hr`
 
 > hr 是一个 空元素. 在 `github` 中 markdown 文件 `---` 就是 `<hr>` 
 
@@ -306,7 +308,7 @@ small {
 
 ```
 
-- [abbr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr)
+#### 6.1 [abbr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr)
 
 > 使用该 `title` 属性来定义缩写的完整描述。
 
@@ -318,13 +320,13 @@ small {
 
 ---
 
-- text-decoration
+#### 6.2 text-decoration
 
 > [指定的文本使用的装饰线条的外观](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
 
 ---
 
-- code
+#### 6.3 code
 
 > 显示其内容在旨在表示该文本是计算机代码的一个短期片段的方式称呼
 
@@ -335,7 +337,7 @@ small {
 
 ---
 
-- [kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd)
+#### 6.4 [kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd)
 
 > 代表嵌入式文本从一个键盘，语音输入，或任何其他文本输入设备，表示文本的用户输入的跨度
 
@@ -346,7 +348,7 @@ small {
 
 ---
 
-- samp
+#### 6.5 samp
 
 > 用来包围从一个计算机程序，其表示样品嵌入式文本（或引用）的输出
 
@@ -355,7 +357,7 @@ small {
 ```
 <samp>Scan complete. Found <em>N</em> results.</samp>
 
-- pre
+#### 6.6 pre
 
 > 代表预格式化文本将被准确地呈现写在HTML文件
 
@@ -401,7 +403,7 @@ sup {
 }
 ```
 
-- [sub](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
+#### 6.7 [sub](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
 
 > sub 下标
 
@@ -410,7 +412,7 @@ Mason<sub>1</sub>
 ```
 Mason<sub>1</sub> 
 
-- [sup](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
+#### 6.8 [sup](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
 
 > sup 上标
 
@@ -495,7 +497,7 @@ button:-moz-focusring,
 
 ```
 
-- [button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+#### 7.1 [button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
 
 > 表示一个可点击的按钮
 
@@ -506,7 +508,7 @@ button:-moz-focusring,
 
 ---
 
-- [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+#### 7.2 [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 
 > 使用，以接受来自用户的数据，以创建基于web的表单交互控制。
 
@@ -518,7 +520,7 @@ button:-moz-focusring,
 
 ---
 
-- [`optgroup`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
+#### 7.3 [`optgroup`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
 
 > 该HTML `<optgroup>`元素产生的内选择一组`<select>`元素。
 
@@ -556,7 +558,7 @@ button:-moz-focusring,
 
 ---
 
-- [`select`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+#### 7.4 [`select`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 
 >HTML `<select>`元素表示，其提供选项菜单的控制：
 
@@ -576,7 +578,7 @@ button:-moz-focusring,
 
 ---
 
-- [`textarea`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+#### 7.5 [`textarea`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
 
 > 表示一个多行纯文本编辑控制。
 
@@ -590,11 +592,11 @@ button:-moz-focusring,
 
 ---
 
--  text-transform
+#### 7.6  text-transform
 
 > [CSS属性指定如何利用元素的文本 >>](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
 
-- [type='button']
+#### 7.7 [type='button']
 
 > css 匹配 带有 `type` 属性 == `button` 的 element
 
@@ -612,15 +614,15 @@ button:-moz-focusring,
 
 ---
 
-- [`-webkit-appearance`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/-moz-appearance)
+#### 7.8 [`-webkit-appearance`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/-moz-appearance)
 
 >  以基于操作系统主题的平台本地样式显示元素。
 
-- [`::-moz-focus-inner`]
+#### 7.9 [`::-moz-focus-inner`]
 
 > ???
 
-- [`:-moz-focusring`]
+#### 7.10 [`:-moz-focusring`]
 
 > 非标准: 此功能是非标准的，不在标准轨道上。不要在面向Web的生产站点上使用它：它不适用于每个用户。实现之间也可能存在很大的不兼容性，并且行为在未来可能会发生变化。
 
@@ -695,15 +697,15 @@ progress {
 
 ```
 
-- `fieldset`
+#### 7.11 `fieldset`
 
 > 被用于组数控制以及标签（`<label>`一个web表单内）。
 
-- `legend`
+#### 7.12 `legend`
 
 > 代表其父内容的标题`<fieldset>`。
 
-- `progress`
+#### 7.13 `progress`
 
 > 显示表示任务的完成进度，通常显示为进度条的指示符。
 
@@ -714,7 +716,7 @@ progress {
 ---
 
 
-- `[type='number']`
+#### 7.14 `[type='number']`
 
 > css 匹配 带有 `type` 属性 == `number` 的 element
 
@@ -726,15 +728,15 @@ progress {
 
 ---
 
-- [`::-webkit-inner-spin-button`](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-inner-spin-button)
+#### 7.15 [`::-webkit-inner-spin-button`](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-inner-spin-button)
 
 > 用于风格号选择器的输入元件的旋转器按钮的内部部分。h
 
-- ::-webkit-search-decoration
+#### 7.16 `::-webkit-search-decoration`
 
 > 查询详述 ??
 
-- [`::-webkit-file-upload-button`](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-file-upload-button)
+#### 7.17 [`::-webkit-file-upload-button`](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-file-upload-button)
 
 > 文件上传按钮, 省略了前缀, 全
 
@@ -773,7 +775,7 @@ summary {
 
 ```
 
-- summary
+#### 8.1 summary
 
 > 一个`<details>`元素的一个内容的摘要，标题或图例
 
